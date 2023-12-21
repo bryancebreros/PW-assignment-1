@@ -1,0 +1,119 @@
+{
+  "config": {
+    "configFile": "/Users/bryansandoval/Desktop/playwright-demo/playwright.config.ts",
+    "rootDir": "/Users/bryansandoval/Desktop/playwright-demo",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/bryansandoval/Desktop/playwright-demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "/Users/bryansandoval/Desktop/playwright-demo",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/demo.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/demo.test.ts",
+      "file": "tests/demo.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4788,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Stock Images, Photos, Vectors, Video, and Music | Shutterstock\n"
+                    },
+                    {
+                      "text": "Number of divs with role='image' on the page: 105\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-21T21:37:51.272Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e57a1cd234ab6219f053-9859308bf4ee886c27d5",
+          "file": "tests/demo.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-12-21T21:37:51.092Z",
+    "duration": 5645.620999999999,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
